@@ -1,0 +1,249 @@
+version: "6.0.0"
+project_name: "AgroPilot"
+project_level: 3
+current_sprint: 1
+sprint_plan_path: "docs/sprint-plan-agropilot-2026-03-24.md"
+
+sprints:
+  - sprint_number: 1
+    start_date: "2026-03-24"
+    end_date: "2026-03-31"
+    capacity_points: 148
+    committed_points: 148
+    completed_points: 0
+    status: "not_started"
+    goal: "Livrer AgroPilot complet — 10 modules fonctionnels, 5 rôles, design award-worthy"
+    stories:
+      # Jour 1 — Foundation
+      - story_id: "STORY-001"
+        title: "Initialisation du projet"
+        points: 3
+        status: "not_started"
+        day: 1
+      - story_id: "STORY-036"
+        title: "Composants partagés réutilisables"
+        points: 3
+        status: "not_started"
+        day: 1
+      - story_id: "STORY-037"
+        title: "GPS et capture photo (hooks)"
+        points: 3
+        status: "not_started"
+        day: 1
+      - story_id: "STORY-005"
+        title: "Pages d'authentification Clerk"
+        points: 3
+        status: "not_started"
+        day: 1
+      - story_id: "STORY-002"
+        title: "Layout principal et navigation"
+        points: 5
+        status: "not_started"
+        day: 1
+      - story_id: "STORY-038"
+        title: "Schéma Convex complet"
+        points: 5
+        status: "not_started"
+        day: 1
+
+      # Jour 2 — Paramètres & Techniciens
+      - story_id: "STORY-006"
+        title: "Protection des routes par rôle"
+        points: 3
+        status: "not_started"
+        day: 2
+      - story_id: "STORY-007"
+        title: "Sync Clerk → Convex"
+        points: 2
+        status: "not_started"
+        day: 2
+      - story_id: "STORY-008"
+        title: "Page configuration paramètres"
+        points: 3
+        status: "not_started"
+        day: 2
+      - story_id: "STORY-009"
+        title: "Journal d'audit"
+        points: 2
+        status: "not_started"
+        day: 2
+      - story_id: "STORY-010"
+        title: "Liste des techniciens"
+        points: 3
+        status: "not_started"
+        day: 2
+      - story_id: "STORY-011"
+        title: "Fiche et formulaire technicien"
+        points: 5
+        status: "not_started"
+        day: 2
+
+      # Jour 3 — Suivi Mensuel & Calendrier
+      - story_id: "STORY-013"
+        title: "Tableau croisé suivi mensuel"
+        points: 5
+        status: "not_started"
+        day: 3
+      - story_id: "STORY-014"
+        title: "Graphiques suivi mensuel"
+        points: 3
+        status: "not_started"
+        day: 3
+      - story_id: "STORY-015"
+        title: "Export rapports PDF/Excel"
+        points: 3
+        status: "not_started"
+        day: 3
+      - story_id: "STORY-016"
+        title: "Calendrier interactif des activités"
+        points: 5
+        status: "not_started"
+        day: 3
+      - story_id: "STORY-017"
+        title: "Mise à jour statut et livrables"
+        points: 3
+        status: "not_started"
+        day: 3
+
+      # Jour 4 — Inspection & Achat
+      - story_id: "STORY-018"
+        title: "Wizard inspection — Structure + Étape 1"
+        points: 5
+        status: "not_started"
+        day: 4
+      - story_id: "STORY-019"
+        title: "Wizard inspection — Étapes 2-3"
+        points: 5
+        status: "not_started"
+        day: 4
+      - story_id: "STORY-020"
+        title: "Wizard inspection — Étape 4"
+        points: 3
+        status: "not_started"
+        day: 4
+      - story_id: "STORY-021"
+        title: "Wizard inspection — Étapes 5-7"
+        points: 5
+        status: "not_started"
+        day: 4
+      - story_id: "STORY-022"
+        title: "Liste inspections et KPI"
+        points: 3
+        status: "not_started"
+        day: 4
+
+      # Jour 5 — Transport & Approvisionnement
+      - story_id: "STORY-023"
+        title: "Wizard transport"
+        points: 5
+        status: "not_started"
+        day: 5
+      - story_id: "STORY-024"
+        title: "Réception et contrôle transport"
+        points: 3
+        status: "not_started"
+        day: 5
+      - story_id: "STORY-025"
+        title: "Liste transport et KPI"
+        points: 2
+        status: "not_started"
+        day: 5
+      - story_id: "STORY-026"
+        title: "Registre approvisionnement"
+        points: 3
+        status: "not_started"
+        day: 5
+      - story_id: "STORY-003"
+        title: "Centre de notifications"
+        points: 3
+        status: "not_started"
+        day: 5
+      - story_id: "STORY-012"
+        title: "Alertes performance techniciens"
+        points: 2
+        status: "not_started"
+        day: 5
+      - story_id: "STORY-004"
+        title: "Mode dégradé hors-ligne"
+        points: 5
+        status: "not_started"
+        day: 5
+
+      # Jour 6 — Dashboard, Scoring & Semences
+      - story_id: "STORY-027"
+        title: "Dashboard KPI Performance"
+        points: 5
+        status: "not_started"
+        day: 6
+      - story_id: "STORY-028"
+        title: "Dashboard KPI Achat & Transport"
+        points: 3
+        status: "not_started"
+        day: 6
+      - story_id: "STORY-029"
+        title: "Détail bonus par technicien"
+        points: 3
+        status: "not_started"
+        day: 6
+      - story_id: "STORY-030"
+        title: "Liste producteurs scoring"
+        points: 3
+        status: "not_started"
+        day: 6
+      - story_id: "STORY-031"
+        title: "Fiche producteur"
+        points: 3
+        status: "not_started"
+        day: 6
+      - story_id: "STORY-032"
+        title: "Registre semenciers"
+        points: 3
+        status: "not_started"
+        day: 6
+      - story_id: "STORY-033"
+        title: "Suivi épurations"
+        points: 5
+        status: "not_started"
+        day: 6
+      - story_id: "STORY-034"
+        title: "Tests qualité et certification"
+        points: 3
+        status: "not_started"
+        day: 6
+
+      # Jour 7 — Polish & Deploy
+      - story_id: "STORY-035"
+        title: "Stock et distribution semences"
+        points: 3
+        status: "not_started"
+        day: 7
+      - story_id: "STORY-039"
+        title: "Mutations Convex (core)"
+        points: 8
+        status: "not_started"
+        day: 7
+      - story_id: "STORY-040"
+        title: "Mutations Convex (semences + activités)"
+        points: 5
+        status: "not_started"
+        day: 7
+      - story_id: "STORY-041"
+        title: "Tests validation croisée Excel"
+        points: 3
+        status: "not_started"
+        day: 7
+      - story_id: "STORY-042"
+        title: "Polish, déploiement, validation finale"
+        points: 5
+        status: "not_started"
+        day: 7
+
+velocity:
+  sprint_1: null
+  rolling_average: null
+
+team:
+  size: 1
+  mode: "vibecoding"
+  sprint_length_days: 7
+  capacity_per_day: 21
