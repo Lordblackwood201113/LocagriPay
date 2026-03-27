@@ -23,6 +23,8 @@
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
+
+    /* Paths */
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
