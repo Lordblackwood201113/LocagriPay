@@ -95,7 +95,7 @@ export function ProducerForm({ onSuccess, onCancel, initialData }: ProducerFormP
       <div className="space-y-2">
         <Label>Opérateur Mobile Money *</Label>
         <select
-          className="flex h-10 sm:h-9 w-full rounded-sm border border-[hsl(var(--input))] bg-transparent px-3 py-1 text-sm shadow-sm focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[hsl(var(--ring))]"
+          className="flex h-10 sm:h-9 w-full rounded-sm border border-[hsl(var(--input))] bg-transparent px-3 py-1 text-base sm:text-sm shadow-sm focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[hsl(var(--ring))]"
           value={operator}
           onChange={(e) => setOperator(e.target.value as MobileMoneyOperator)}
         >
