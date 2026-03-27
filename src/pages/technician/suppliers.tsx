@@ -119,7 +119,7 @@ function ProducersTab() {
       </div>
 
       <Dialog open={showForm} onOpenChange={setShowForm}>
-        <DialogContent className="max-w-md mx-4 sm:mx-auto">
+        <DialogContent className="sm:max-w-md">
           <DialogHeader>
             <DialogTitle>{editProducer ? "Modifier le producteur" : "Nouveau producteur"}</DialogTitle>
           </DialogHeader>
@@ -209,7 +209,7 @@ function CooperativesTab() {
       </div>
 
       <Dialog open={showForm} onOpenChange={setShowForm}>
-        <DialogContent className="max-w-md mx-4 sm:mx-auto">
+        <DialogContent className="sm:max-w-md">
           <DialogHeader>
             <DialogTitle>{editCoop ? "Modifier la coopérative" : "Nouvelle coopérative"}</DialogTitle>
           </DialogHeader>
