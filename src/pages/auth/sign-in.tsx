@@ -1,5 +1,6 @@
 import { useAuth, SignIn } from "@clerk/react";
 import { Navigate } from "react-router-dom";
+import { InstallPWAButton } from "@/components/shared/install-pwa-button";
 
 function RiceEars({ className = "" }: { className?: string }) {
   return (
@@ -578,6 +579,9 @@ export default function SignInPage() {
               },
             }}
           />
+
+          {/* PWA install button — shown only when installable */}
+          <InstallPWAButton />
         </div>
 
         {/* Mobile rice ears */}
