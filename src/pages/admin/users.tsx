@@ -71,7 +71,7 @@ export default function UsersPage() {
           <div className="space-y-4">
             <div className="space-y-2">
               <Label>Rôle</Label>
-              <select className="flex h-9 w-full rounded-md border border-[hsl(var(--input))] bg-transparent px-3 py-1 text-sm" value={editRole} onChange={(e) => setEditRole(e.target.value as Role)}>
+              <select className="flex h-10 sm:h-9 w-full rounded-sm border border-[hsl(var(--input))] bg-transparent px-3 py-1 text-base sm:text-sm" value={editRole} onChange={(e) => setEditRole(e.target.value as Role)}>
                 {ROLES.map((r) => <option key={r} value={r}>{ROLE_LABELS[r]}</option>)}
               </select>
             </div>

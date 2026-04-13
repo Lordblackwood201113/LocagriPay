@@ -1,0 +1,15 @@
+node_modules
+dist
+.git
+.github
+.agents
+.kiro
+.claude
+docs
+tests
+*.md
+!README.md
+.env
+.env.*
+!.env.example
+Region_civ.geojson

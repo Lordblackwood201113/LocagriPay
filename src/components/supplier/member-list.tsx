@@ -87,7 +87,7 @@ export function MemberList({ cooperativeId, members, representativeId }: MemberL
               <Input type="tel" placeholder="Téléphone *" value={phone} onChange={(e) => setPhone(e.target.value)} required />
               <Input placeholder="Zone / Localisation" value={location} onChange={(e) => setLocation(e.target.value)} />
               <select
-                className="flex h-10 sm:h-9 w-full rounded-sm border border-[hsl(var(--input))] bg-transparent px-3 py-1 text-sm"
+                className="flex h-10 sm:h-9 w-full rounded-sm border border-[hsl(var(--input))] bg-transparent px-3 py-1 text-base sm:text-sm"
                 value={operator} onChange={(e) => setOperator(e.target.value as MobileMoneyOperator)}
               >
                 {(Object.entries(OPERATOR_LABELS) as [MobileMoneyOperator, string][]).map(([val, label]) => (
